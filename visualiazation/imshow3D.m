@@ -6,7 +6,7 @@ function imshow3D(volumeData, numCols)
 %   numCols    - (optional) Number of columns in the montage
 %
 % Example:
-%   load mri; V = squeeze(D); show3DMontage(V);
+%   load mri; V = squeeze(D); imshow3D(V);
 
     if ndims(volumeData) ~= 3
         error('Input must be a 3D matrix [Height x Width x Frames]');
