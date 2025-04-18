@@ -1,5 +1,5 @@
 function imshow3D(volumeData, numCols)
-% show3DMontage displays a 3D volume (H x W x N) as a montage in one figure.
+% imshow3D displays a 3D volume (H x W x N) as a montage in one figure.
 %
 % INPUTS:
 %   volumeData - 3D matrix (Height x Width x Frames)
